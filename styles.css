@@ -1,0 +1,176 @@
+body {
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  
+  #navbar{
+      position: fixed;
+      background-color: #FF8C32;
+      width: -webkit-fill-available;
+      top:0;
+      left:0;
+  
+  }
+
+  #navbar ul {
+    margin: 0;
+  }
+  
+  .nav-menu li{
+      list-style:none;
+        float: left;
+  }
+
+  .nav-menu li a {
+    display: block;
+    padding: 20px;
+    font-size: x-large;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-menu li a:hover {
+      background-color:#06113C;
+      color:white;
+  }
+  #welcome-section {
+      background: aliceblue;
+      position: relative;
+      height: -webkit-fill-available;
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      font-size: 40px;
+      background: #DDDDDD ;
+      color : #FF8C32 ;
+  
+  }
+  .heading{
+      margin: auto;
+      width: auto;
+      padding: 10px;
+      text-align: center;
+  }
+  
+  
+  
+  .projects-class{
+      display: flow-root;
+      width: fit-content;
+      margin: auto;
+      background:  #06113C ;
+  
+  }
+  
+  div.project-title{
+    margin: 30px;
+  border: 3px solid #FF8C32;
+  background: #FF8C32 ;
+  
+    float: left;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  div.project-title:hover {
+      font-weight: bold;
+      border: 3px solid  #06113C;
+    }
+  
+  .project-title a {
+    text-decoration: none;
+    font-size: 20px;
+    color : #EEEEEE ;
+    margin: 15px;
+    display: block;
+  
+  
+  
+  }
+  
+  button {
+    padding: 30px ;
+    font-size: 30px ;
+    margin: 20px auto;
+    background: #06113C ;
+    color: #EEEEEE ;
+    border: none ;
+  }
+  
+  button:hover {
+    background: #FF8C32 ;
+    color: #06113C ;
+  }
+  
+  
+  #buttonID{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  
+    div.project-title img {
+      width: 100%;
+      height:100%;
+    }
+  .socials{
+    text-align: center;
+    background: #DDDDDD;
+    padding: 50px;
+  }
+    .center {
+      width: fit-content;
+      margin: auto;
+  
+    }
+  
+  .footer {
+    direction: rtl;
+    display: flex;
+     
+  }
+
+  .footer p {
+        margin: 20px;
+    }
+
+    @media only screen and (min-width:465px and max-width: 960px) {
+  
+      #navbar {
+        height: 300px ;
+      }
+  
+      #welcome-section {
+        top : 250 ;
+        height:50vh;
+      }
+  
+  
+  
+      div.project-title{
+        margin: 30px;
+      border: 3px solid #FF8C32;
+      background: #FF8C32 ;
+  
+        float: left;
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+  
+    }
+  
